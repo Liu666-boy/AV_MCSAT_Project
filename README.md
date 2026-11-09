@@ -69,5 +69,9 @@ python train.py --eval_only --checkpoint weights/MCSAT_AV_Cond1_vibration_4_3rpm
 | MCSAT | 振动 | 94.3182% | 0.7955%（7/880） | 0.7955%（7/880） | 0.9437 | 0.9432 | 0.9428 |
 | MCSAT_AV | 声振融合 | 99.8864% | 0.0000%（0/880） | 0.0000%（0/880） | 0.9989 | 0.9989 | 0.9989 |
 
+六 数据集
+本文用到的数据集是风力涡轮机在时变负荷下螺距轴承的振动和声学数据（Cond_1，Cond_2）
+数据集链接：https://data.mendeley.com/datasets/2n9jkd384k/1
+
 
 
