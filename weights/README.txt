@@ -1,0 +1,1 @@
+# 声振融合权重\n\nMCSAT_AV_Cond1_vibration_4_3rpm_epoch30.pt（与同名 .pth 内容相同）\n\n对应配置：Cond_1_vibration_4/3rpm、7 类、length=1024、step=1024、batch_size=32、epochs=30、test_fraction=0.2、trail=1。\n\n测试结果：L2 准确率 99.8864%，FPR 0.0000%，FNR 0.0000%，Precision 0.9989，Recall 0.9989，F1 0.9989。

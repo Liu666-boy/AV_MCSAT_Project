@@ -1,0 +1,6 @@
+numpy
+einops
+thop
+scikit-learn
+matplotlib
+tensorboard

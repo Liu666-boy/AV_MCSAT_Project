@@ -1,0 +1,30 @@
+Cond_1_vibration_4 / 3rpm / same-condition test
+
+Order from user-provided screenshots: AV fusion, acoustic baseline, vibration baseline.
+
+MCSAT_AV (acoustic + vibration):
+  training_time_seconds=135.30
+  accuracy=99.8864%
+  FPR=0.0000% (0/880)
+  FNR=0.0000% (0/880)
+  precision=0.9989
+  recall=0.9989
+  f1=0.9989
+
+MCSAT acoustic baseline:
+  training_time_seconds=60.10
+  accuracy=96.9886%
+  FPR=3.0682% (27/880)
+  FNR=0.9091% (8/880)
+  precision=0.9705
+  recall=0.9699
+  f1=0.9699
+
+MCSAT vibration baseline:
+  training_time_seconds=59.00
+  accuracy=94.3182%
+  FPR=0.7955% (7/880)
+  FNR=0.7955% (7/880)
+  precision=0.9437
+  recall=0.9432
+  f1=0.9428
