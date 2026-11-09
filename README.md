@@ -13,13 +13,13 @@
 
 二 环境与部署
 
-下载解压后，打开AV_MCSAT_Project项目文件，在所用的服务器安装 requirements-test.txt 中的依赖，并按服务器 CUDA 版本安装 PyTorch。
+1.下载解压后，打开项目文件，在所用的服务器安装 requirements-test.txt 中的依赖，并按服务器 CUDA 版本安装 PyTorch。
 
-将AV_MCSAT_Project项目文件放到所用服务器内。
+2.将项目文件放到所用服务器内。
 
-复制上面给出的运行脚本，然后粘贴到服务器终端按回车即可训练与测试，运行完毕后会得到验收记录。
+3.复制上面给出的运行脚本，然后粘贴到服务器终端按回车即可训练与测试，运行完毕后会得到验收记录。
 
-复制上面给出的权重脚本，然后粘贴到服务器终端按回车即可测试
+4.复制上面给出的权重脚本，然后粘贴到服务器终端按回车即可测试
 
 三 训练与测试运行脚本
 
@@ -61,7 +61,7 @@ python train.py --eval_only --checkpoint weights/MCSAT_Cond1_3rpm_vibration_epoc
 python train.py --eval_only --checkpoint weights/MCSAT_AV_Cond1_vibration_4_3rpm_epoch30.pt --datasets cond1_same_condition --work_dir ./Cond_1_vibration_4 --condition 3rpm --modality av --model MCSAT_AV -ic 1 --num_cls 7 --length 1024 --step 1024 --batch_size 32 --test_fraction 0.2 --test_batches 55 --train_batches_per_epoch 100 --trail 1
 ```
 
-五 已登记测试结果
+五 对比结果
 
 | 模型 | 输入 | L2 准确率 | FPR | FNR | Precision | Recall | F1 |
 |---|---|---:|---:|---:|---:|---:|---:|
